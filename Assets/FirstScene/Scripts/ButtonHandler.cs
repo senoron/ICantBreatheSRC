@@ -8,13 +8,27 @@ public class ButtonHandler : MonoBehaviour
     private void OnMouseUp() {
         switch (gameObject.name){
             case "GoToMain":
-                Application.LoadLevel("Main");
-            break;
+                startFadeOut();
+                StartCoroutine("loadScene");
+                break;
             case "Exit":
                  Application.Quit();
                  UnityEditor.EditorApplication.isPlaying = false;
             break;
         }
             
+    }
+
+    void startFadeOut()
+    {
+        GameObject panel = GameObject.Find("Panel");
+        panel.GetComponent<Animator>().SetTrigger("Fade in");
+    }
+    
+    IEnumerator loadScene() {
+        for(;;) {
+            yield return new WaitForSeconds(2f);
+            Application.LoadLevel("MiddleScene");
+        }
     }
 }
