@@ -20,8 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="169986f5-d423-4d42-9f69-5107e2cfc62c" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/Assets/labirint/Scene/labirint.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/labirint/Scene/labirint.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Hakaton/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hakaton/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/labirint.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/labirint/Scene/labirint.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/labirint/Scene/labirint.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/player/Animation/Idle/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/player/Animation/Idle/Player.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/player/Animation/Idle/PlayerIdle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/player/Animation/Idle/PlayerIdle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/player/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/player/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/player/Sprites/Player/skull_v1_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/player/Sprites/Player/skull_v1_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/player/Sprites/Player/skull_v1_2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/player/Sprites/Player/skull_v1_2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/player/Sprites/Player/skull_v1_3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/player/Sprites/Player/skull_v1_3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/player/Sprites/Player/skull_v1_4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/player/Sprites/Player/skull_v1_4.png.meta" afterDir="false" />
+>>>>>>> player
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,18 +45,28 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+<<<<<<< HEAD
     <setting file="file://$PROJECT_DIR$/Assets/labirint/Scripts/RoomSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+=======
+    <setting file="file://$PROJECT_DIR$/Assets/player/Scripts/Shoot.cs" root0="FORCE_HIGHLIGHTING" />
+>>>>>>> player
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/player/Scripts/Resin.cs" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Assets/player/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/player/Scripts/BulletPosition.cs" />
         <option value="$PROJECT_DIR$/Assets/player/Scripts/Shoot.cs" />
         <option value="$PROJECT_DIR$/Assets/labirint/Scripts/RoomTemplates.cs" />
         <option value="$PROJECT_DIR$/Assets/labirint/Scripts/CenterRoom.cs" />
         <option value="$PROJECT_DIR$/Assets/labirint/Scripts/RoomSpawner.cs" />
+=======
+        <option value="$PROJECT_DIR$/Assets/player/Scripts/BulletPosition.cs" />
+        <option value="$PROJECT_DIR$/Assets/player/Scripts/Shoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/player/Scripts/Player.cs" />
+>>>>>>> player
       </list>
     </option>
   </component>
@@ -86,7 +109,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607769697951</updated>
+<<<<<<< HEAD
       <workItem from="1607769707092" duration="12430000" />
+=======
+      <workItem from="1607769707092" duration="4949000" />
+>>>>>>> player
     </task>
     <servers />
   </component>

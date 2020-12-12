@@ -6,11 +6,19 @@
     <e p="D:\Hakaton\Hakaton" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+<<<<<<< HEAD
         <e p="labirint" t="Include">
           <e p="Scripts" t="Include">
             <e p="CenterRoom.cs" t="Include" />
             <e p="RoomSpawner.cs" t="Include" />
             <e p="RoomTemplates.cs" t="Include" />
+=======
+        <e p="player" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Player.cs" t="Include" />
+            <e p="Resin.cs" t="Include" />
+            <e p="Shoot.cs" t="Include" />
+>>>>>>> player
           </e>
         </e>
       </e>
