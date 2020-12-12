@@ -9,15 +9,20 @@ public class Player : MonoBehaviour
     [SerializeField] private float playerSpeed = 5f;
     private Vector2 movenment;
     private Rigidbody2D rb;
+    private float UltraCoolDown = 2;
+    private float CoolDown = 0;
+    Animator anim;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     void Update()
     {
         InputAxis();
+        Ultra();
     }
 
     private void FixedUpdate()
@@ -36,5 +41,17 @@ public class Player : MonoBehaviour
     void Move()
     {
         rb.MovePosition(rb.position + movenment * Time.deltaTime);
+    }
+
+    void Ultra()
+    {
+        CoolDown -= Time.deltaTime;
+        if (Input.GetKey(KeyCode.F) && CoolDown <= 0)
+        {
+            Debug.Log("Ultra!");
+            anim.SetTrigger("Ultra");
+            CoolDown = UltraCoolDown;
+
+        }
     }
 }
