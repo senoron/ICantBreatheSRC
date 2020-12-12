@@ -1,10 +1,23 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor.SceneManagement;
 
 public class ButtonHandler : MonoBehaviour
 {
+    private Vector3 localScaleStart;
+
+    private void Start()
+    {
+        localScaleStart = gameObject.transform.localScale;
+    }
+
+    private void OnMouseDown()
+    {
+        gameObject.transform.localScale *= 0.95f;
+    }
+
     private void OnMouseUp() {
         switch (gameObject.name){
             case "GoToMain":
@@ -16,7 +29,8 @@ public class ButtonHandler : MonoBehaviour
                  UnityEditor.EditorApplication.isPlaying = false;
             break;
         }
-            
+
+        gameObject.transform.localScale = localScaleStart;
     }
 
     void startFadeOut()
